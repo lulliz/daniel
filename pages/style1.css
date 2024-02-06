@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+body{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto auto auto;
+    justify-content: center;
+    background-color: rgb(243, 243, 243);
+}
+header{
+    display: flex;
+    color: white;
+    background-color: #FF8C00;
+    border: 3px #FF8C00 solid;
+    padding: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+main footer{
+    width: 1024px;
+    list-style: none;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 1850px;
+}
+ul{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    list-style: none;
+}
+nav{
+    padding: auto;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    color: #ffffff;
+    font-size: 20px;
+}
+ul li a {
+    color: #ffffff;
+    font-size: 20px;
+}
+main{
+    justify-content: space-around;
+    margin: 50px 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+    font-size: 40px;
+    color: #FF8C00;
+    display: flex;
+    justify-content: center;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+}
+div{
+    display: flex;
+}
+h2{
+    color: #FF8C00;
+    margin: 29px;
+}
+h3{
+    color: #FF8C00;
+    margin: 10px;
+}
+.b6{
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+}
+.b7{
+    background-color: rgb(243, 243, 243);
+    border-radius: 20px;
+    margin: 40px;
+    display: flex;
+    width: 160px;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.b18{
+    color: #FF8C00;
+    height: 10px;
+    font-size: 20px;
+}
+.b19{
+    font-weight: bold;
+    height: 10px;
+}
+.b20{
+    width: 450px;
+    display: flex;
+    align-items: center;
+}
+.b71{
+    background-color: rgb(243, 243, 243);
+    border-radius: 20px;
+    margin: 38px;
+    display: flex;
+    width: 200px;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.ba{
+    margin: 50px 10px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    width: 800px;
+}
+i{
+    font-size: 20px;
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+    color: #FF8C00;
+}
+.bs{
+    display: flex;
+}
+.b72{
+    background-color: rgb(243, 243, 243);
+    border-radius: 15px;
+    margin: 15px;
+    display: flex;
+    width: 150px;
+    padding: 7px;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 30px;
+    justify-content: center;
+}

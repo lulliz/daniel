@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap');
+body{
+    background-color: #c9baa6;
+    margin: 0px;
+}
+article{
+    display: flex;
+}
+header{
+    background-color: #aa183c;
+    font-family: Mountains of Christmas;
+    margin: 32px auto 0 auto;
+    width: 768px;
+    padding: 32px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    color: #fff;
+}
+main{
+    width: 768px;
+    margin: 0 auto;
+    padding: 32px;
+    justify-content: space-between;
+    gap: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background-color: #c33155;
+}
+main .card{
+    width: 22%;
+    height: 200px;
+    border: 2px solid #fff;
+    border-radius: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #c33155;
+    font-family: "Pangolin", cursive;
+    transition: 0.25s;
+    margin: 10px;
+}
+main .card .icon {
+    font-size: 64px;
+    text-align: center;
+    padding: 16px;
+}
+main .card .text{
+    font-size: 20px;
+    text-align: center;
+    padding: 16px;
+}
+main .card:hover{
+    background-color: #c33155;
+    color: #fff;
+}
